@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="true" />
+	<title>Stay Away From Corona</title>
+	 <meta property="og:title" content="Corona Virus Safety" />
+<meta property="og:url" content="https://corona-live-updates.blogspot.com/" />
+<meta property="og:image" content="https://1.bp.blogspot.com/-Ula_UYxDfb4/XqJiq8Mv5GI/AAAAAAAAKOs/8rKR9adJ1soaSPD89Cuv_-Ro1EdF2h8LACLcBGAsYHQ/s1600/covid5.jpegg" />
+<meta property="og:description" content="U will get total cases , causes ,  symptoms , here .Enter ur name and Share it with everyone." />
+<meta property="og:site_name" content="https://corona-live-updates.blogspot.com/" />
+  <!---updated-->
+  
+    <meta name="google" value="notranslate">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="https://1.bp.blogspot.com/-W6b0b8wZ4II/XqJiuufAX9I/AAAAAAAAKO4/FxNQs36xU6QOEHfVzVNn7OdUs3kGjyMpACLcBGAsYHQ/s1600/love.gif">
+  <!---updated-->
+ 
+    <meta charset="utf-8">
+	</meta>
+	<script src="js/main1.js" ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e8dc2d67daa0a0012e7bf03&#38;product=inline-share-buttons' async='async'></script>
+  <script src="https://kit.fontawesome.com/c4f4b38242.js" crossorigin="anonymous"></script>
+    <style>
+
+@charset "utf-8";
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #2196F9;
+}
+.marqueeLeft{
+	position: fixed;
+	top: 0;
+	left: 0.5%;
+	width: auto;
+	height: 100%;
+	color: #000;
+}
+.marqueeRight{
+	position: fixed;
+	top: 0;
+	right: 0.5%;
+	width: auto;
+	height: 100%;
+	color: #000;
+}
+main{
+	max-width: 400px;
+	
+	background: blue;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	position: relative;
+	text-align: center;
+	box-shadow: 3px 4px 41px 0 rgba(0, 0, 0, 0.64);
+
+}
+.overlay{
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+}
+.animated-box{
+	background: url("https://1.bp.blogspot.com/-3nu3vzyVC4A/XqJilOT_ZOI/AAAAAAAAKOU/h5ZqEqZ195UNaiuoRziFl6VvGcnV8BiogCLcBGAsYHQ/s1600/background.png");
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.animated-box span{
+	font-size: 40px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: monospace;
+	color: #fff;
+	text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff,0 0 0.3em #fff,0 0 0.4em #f7f,0 0 0.6em #f0f,0 0 0.8em #f0f,0 0 1em #f0f,0 0 1.2em #f0f;
+
+}
+.ugt-main-design{
+	padding: 20px 0;
+	color: white;
+}
+.ugt-main-design p{
+	font-family: monospace;
+	font-size: 18px;
+}
+.ugt-design1,.ugt-design2,.ugt-design3,.ugt-design4{
+	width: 80%;
+	border-radius: 20px;
+	margin: auto;
+	padding: 5px;
+	font-family: sans-serif;
+	font-size: 15px
+	font-weight: bold; 
+	line-height: 20px;
+	margin-bottom: 20px;
+	box-shadow: rgba(0,0,0,0.2)5px 5px 5px;
+}
+.ugt-design1,.ugt-design3{
+	background: red;
+	color: white
+}
+.ugt-design2,.ugt-design4{
+	background: pink;
+	color: black;
+}
+.instruction-design{
+	font-weight: bold;
+	color: white;
+}
+.footerbtn{
+	width: 100%;
+	height: 40px;
+	line-height: 15px;
+	background: #34af23;
+	color: #FFF ;
+	width: 90%;
+	position: fixed;
+	bottom:-2%;
+	border-radius: 20px;
+	padding: 5px;
+	left: 0px;
+	margin: 2% 5%;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	box-shadow: 0 4px 12px 0 rgba(0, 0, 0 , .3);
+	visibility: hidden;
+}
+.input-box{
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+
+}
+.input-box input{
+	width: 80%;
+	float: left;
+	height: 100%;
+	text-align: center;
+	font-size: 20px;
+	background-color: yellow;
+	border: none;
+	outline: none;
+}
+.input-box input::placeholder{
+	color: red;
+}
+.input-box button{
+	width: 20%;
+	float: left;
+	height: 100%;
+	font-size: 20px;
+	color: white;
+	background: #3F51B5;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+/* jackInTheBox animation*/
+@-webkit-keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.jackInTheBox {
+  -webkit-animation-name: jackInTheBox;
+  animation-name: jackInTheBox;
+  animation-duration: 3s;
+}
+
+/* tada animation */
+@-webkit-keyframes tada {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes tada {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.tada {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+  animation-duration: 3s;
+}
+ 
+ /* pulse coding */
+      @-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+/*Corona Box*/
+
+.corona-title{
+    font-size: 2rem;
+    font-family: calibri;
+    margin: 0;
+    padding: 0;
+}
+#country-name{
+   font-family: verdana;
+   font-size: 20px;
+   color: red;
+   text-transform: uppercase;
+   padding: 0;
+   margin-bottom: 10px;
+}
+.coronavirus-box{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.coronavirus-box h4{
+    font-family: Candara;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.coronavirus-box h5{
+    padding: 0;
+    margin: 0;
+    float: left;
+    font-family: verdana;
+    font-size: 22px;
+}
+.coronavirus-box i{
+    font-size: 35px;
+    float: right;
+    color: yellow;
+}
+.coronavirus-box .corona-box1,.corona-box2{
+ width: 100%;
+ min-height: 80px;
+}
+.corona-box1 div:nth-child(1),
+.corona-box2 div:nth-child(1),
+.corona-box1 div:nth-child(2),
+.corona-box2 div:nth-child(2){
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 5px 25px;
+    background: #000099;
+    box-shadow: 7px 7px 15px rgba(0,0,0, .15), -7px -7px 20px rgba(0, 0, 0, 1), 0px 0px 4px rgba(0, 0, 0, .2) !important;
+}
+ /* social share coding*/
+#share-box{
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    visibility: hidden;
+    position:fixed;
+    left:0;
+    bottom:0;
+
+}
+#share-box div{
+    width: 30%;
+    height: 30px;
+    background: red;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: verdana;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+  </style>       	
+
+</head>
+
+<script>
+
+var pubid = '6456602454970241';
+<!------------------------------------------------------------------------->
+<!-- Banner Ad Slot Id Here -->
+var s1 = '8264470118';
+var pn1 = 'com.FindThePairGame';
+var _0x6717=["\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x6F\x6F\x67\x6C\x65\x61\x64\x73\x2E\x67\x2E\x64\x6F\x75\x62\x6C\x65\x63\x6C\x69\x63\x6B\x2E\x6E\x65\x74\x2F\x6D\x61\x64\x73\x2F\x67\x6D\x61\x3F\x70\x72\x65\x71\x73\x3D\x30\x26\x75\x5F\x73\x64\x3D\x31\x2E\x35\x26\x75\x5F\x77\x3D\x33\x32\x30\x26\x6D\x73\x69\x64\x3D","\x26\x63\x61\x70\x3D\x61\x26\x6A\x73\x3D\x61\x66\x6D\x61\x2D\x73\x64\x6B\x2D\x61\x2D\x76\x33\x2E\x33\x2E\x30\x26\x74\x6F\x61\x72\x3D\x30\x26\x69\x73\x75\x3D\x57\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x25\x32\x39\x2B\x25\x32\x37\x45\x45\x41\x42\x42\x38\x45\x45\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x43\x32\x42\x45\x37\x37\x30\x42\x36\x38\x34\x44\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x39\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x45\x43\x42\x26\x63\x69\x70\x61\x3D\x30\x26\x66\x6F\x72\x6D\x61\x74\x3D\x33\x32\x30\x78\x35\x30\x5F\x6D\x62\x26\x6E\x65\x74\x3D\x77\x69\x26\x61\x70\x70\x5F\x6E\x61\x6D\x65\x3D\x31\x2E\x61\x6E\x64\x72\x6F\x69\x64\x2E","\x26\x68\x6C\x3D\x65\x6E\x26\x75\x5F\x68\x3D\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x26\x63\x61\x72\x72\x69\x65\x72\x3D\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x39\x39\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x26\x70\x74\x69\x6D\x65\x3D\x30\x26\x75\x5F\x61\x75\x64\x69\x6F\x3D\x34\x26\x75\x5F\x73\x6F\x3D\x70\x26\x6F\x75\x74\x70\x75\x74\x3D\x68\x74\x6D\x6C\x26\x72\x65\x67\x69\x6F\x6E\x3D\x6D\x6F\x62\x69\x6C\x65\x5F\x61\x70\x70\x26\x75\x5F\x74\x7A\x3D\x2D\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x26\x63\x6C\x69\x65\x6E\x74\x5F\x73\x64\x6B\x3D\x31\x26\x65\x78\x3D\x31\x26\x63\x6C\x69\x65\x6E\x74\x3D\x63\x61\x2D\x61\x70\x70\x2D\x70\x75\x62\x2D","\x26\x73\x6C\x6F\x74\x6E\x61\x6D\x65\x3D","\x26\x63\x61\x70\x73\x3D\x69\x6E\x6C\x69\x6E\x65\x56\x69\x64\x65\x6F\x5F\x69\x6E\x74\x65\x72\x61\x63\x74\x69\x76\x65\x56\x69\x64\x65\x6F\x5F\x6D\x72\x61\x69\x64\x31\x5F\x63\x6C\x69\x63\x6B\x54\x72\x61\x63\x6B\x69\x6E\x67\x5F\x73\x64\x6B\x41\x64\x6D\x6F\x62\x41\x70\x69\x46\x6F\x72\x41\x64\x73\x26\x6A\x73\x76\x3D\x31\x38\x22\x20\x68\x65\x69\x67\x68\x74\x3D\x22\x35\x35\x22\x20\x77\x69\x64\x74\x68\x3D\x22\x33\x32\x35\x22\x20\x66\x72\x61\x6D\x65\x62\x6F\x72\x64\x65\x72\x3D\x22\x30\x22\x20\x73\x63\x72\x6F\x6C\x6C\x69\x6E\x67\x3D\x22\x6E\x6F\x22\x20\x77\x69\x64\x74\x68\x3D\x22\x30\x22\x20\x68\x65\x69\x67\x68\x74\x3D\x22\x30\x22\x20\x6D\x61\x72\x67\x69\x6E\x77\x69\x64\x74\x68\x3D\x22\x30\x22\x20\x6D\x61\x72\x67\x69\x6E\x68\x65\x69\x67\x68\x74\x3D\x22\x30\x22\x20"];var src1=_0x6717[0]+ pn1+ _0x6717[1]+ pn1+ _0x6717[2]+ pubid+ _0x6717[3]+ s1+ _0x6717[4]
+</script>
+<!------------------------------------------------------------------------->
+
+  <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+    <link type="text/css" href="css/tabs-1.css" rel="stylesheet" /> 
+    <script src="jquery.tools.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+       $("ul.tabs").tabs("div.panes > div");
+     });
+ </script>
+
+     <!-- BANNER 1 -->
+    <tr>
+       <td> <script type="text/javascript">
+var _0x28f9=["\x3C\x68\x32\x20\x61\x6C\x69\x67\x6E\x3D\x22\x63\x65\x6E\x74\x65\x72\x22\x3E\x3C\x69\x66\x72\x61\x6D\x65\x20\x73\x72\x63\x3D\x22","\x2F\x3E\x3C\x2F\x69\x66\x72\x61\x6D\x65\x3E\x3C\x2F\x68\x31\x3E","\x77\x72\x69\x74\x65"];document[_0x28f9[2]](_0x28f9[0]+ src1+ _0x28f9[1])
+</script>
+<!------------------------------------------------------------------------->
+
+  <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+    <link type="text/css" href="css/tabs-1.css" rel="stylesheet" /> 
+    <script src="jquery.tools.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+       $("ul.tabs").tabs("div.panes > div");
+     });
+ </script>
+
+     <!-- BANNER 1 -->
+    <tr>
+       <td> <script type="text/javascript">
+var _0x28f9=["\x3C\x68\x32\x20\x61\x6C\x69\x67\x6E\x3D\x22\x63\x65\x6E\x74\x65\x72\x22\x3E\x3C\x69\x66\x72\x61\x6D\x65\x20\x73\x72\x63\x3D\x22","\x2F\x3E\x3C\x2F\x69\x66\x72\x61\x6D\x65\x3E\x3C\x2F\x68\x31\x3E","\x77\x72\x69\x74\x65"];document[_0x28f9[2]](_0x28f9[0]+ src1+ _0x28f9[1])
+</script>
+
+<body>
+	<!--Flower and ballon--> 
+
+<!--Side wala Right-->
+
+<!--Main Wala Box-->
+<main>
+	<!--UGT animated box-->
+	<div class="overlay">
+		<!--Animated Box Coding-->
+		<div class="animated-box">
+			<span class="animated jackInTheBox infinite" id="animateText">CoronaVirus</span>
+		 </div>
+		 <div class="ugt-main-design">
+           <p>Read till end , if u agree </p>
+           <p>SHARE it with Everyone</p><br>
+		 	<p>A fully Automated Website which tells about Corona And Updates</p>
+		 	<br>
+		 	<p>From UGT</p>
+		 	<p>Info from World Health Organization</p><br>
+           <script async="async" data-cfasync="false" src="//hf5rbejvpwds.com/c502e5f315086c984321a351b0cb2b59/invoke.js"></script>
+<div id="container-c502e5f315086c984321a351b0cb2b59"></div>
+           <iframe data-aa="1372252" src="//ad.a-ads.com/1372252?size=300x250" scrolling="no" style="width:300px; height:250px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
+		 	 <br>
+		 <img src="https://1.bp.blogspot.com/-Ula_UYxDfb4/XqJiq8Mv5GI/AAAAAAAAKOs/8rKR9adJ1soaSPD89Cuv_-Ro1EdF2h8LACLcBGAsYHQ/s1600/covid5.jpeg" width="98%">
+		 <br><br/><br/>
+		 <div class="ugt-design1">
+		 	<marquee behavior="alternate">अपने हाथों को अच्छी तरह साबुन से धोएं</marquee>
+		 </div>
+		 <div class="ugt-design2">
+		 	<marquee behavior="alternate">अपनी नाक और मुंह को ढक करक रखें।</marquee>
+		 </div>
+		 <div class="ugt-design3">
+		 	<marquee behavior="alternate">बीमार लोगों से दूरी बना रखें</marquee>
+		 </div>
+		 <div class="ugt-design4">
+		 	<marquee behavior="alternate">घर को साफ रखें</marquee>
+		 </div>
+		  <h1 class="corona-title">CORONAVIRUS LIVE</h1>
+        <h3 id="country-name">INDIA</h3>
+        <div class="coronavirus-box">
+            <div class="corona-box1">
+                <div>
+                 <h4>TOTAL CASES</h4>
+                 <h5 class="total_cases">0</h5>
+                 <i class="fa fa-users"></i>
+                </div>
+                <div>
+                    <h4>DEATHS</h4>
+                    <h5 class="deaths">0</h5>
+                    <i class="fa fa-bed"></i>
+                </div>
+            </div>
+            <br/>
+            <div class="corona-box2">
+                <div>
+                    <h4>RECOVERED</h4>
+                    <h5 class="recovered">0</h5>
+                    <i class="fa fa-child"></i>
+                </div>
+                <div>
+                    <h4>NEW CASES TODAY</h4>
+                    <h5 class="new_cases">0</h5>
+                    <i class="fa fa-bell"></i>
+                </div>
+            </div>
+        </div>
+		 <p>Look At The Below Map:</p>
+		 <p>How it started </p>
+         <p>Just wait n watch till end </p>
+		 <img src="https://1.bp.blogspot.com/-WOzB4aqczdo/XqJizyOlllI/AAAAAAAAKO8/54ntqP_2DuIOsLKaIaCma-UDE8rp6UTWwCLcBGAsYHQ/s1600/outbreak.gif" width="99%">
+		 <br><br>
+		 <p>Date wise ratio and spreadind:</p>
+		 <img src="https://1.bp.blogspot.com/-JgxqAYP0V1Q/XqJi2_5OGLI/AAAAAAAAKPE/xSr39KpnSOEl7G5oUtusvd_CrCc2TznWQCLcBGAsYHQ/s1600/ratio.gif" width="99%">
+		 </div>
+		 <div class="instruction-design">
+		 	<h3>Follow The Instructions Given below:</h3><br>
+		 	<img src="https://1.bp.blogspot.com/-_wUB5oGC9uE/XqJipmVgUDI/AAAAAAAAKOk/nyn-Qaf9CNA88zE0zyfXHfPA8te4jMzvwCLcBGAsYHQ/s1600/covi12.jpg" width="98%" >
+		 	<br>
+		 	<br>
+		 	<img src="https://1.bp.blogspot.com/-CvaClPkgWkg/XqJioMOStII/AAAAAAAAKOc/KDK3N57C9k8zWqxLSd0_f_jpmOQvxBafgCLcBGAsYHQ/s1600/covid11.jpeg" width="98%">
+		 	<h3>Look At This :</h3>
+           <br>
+           <script async="async" data-cfasync="false" src="//hf5rbejvpwds.com/c502e5f315086c984321a351b0cb2b59/invoke.js"></script>
+<div id="container-c502e5f315086c984321a351b0cb2b59"></div>
+           
+<script>
+
+var pubid = '6456602454970241';
+<!------------------------------------------------------------------------->
+<!-- Banner Ad Slot Id Here -->
+var s1 = '8264470118';
+var pn1 = 'com.FindThePairGame';
+var _0x6717=["\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x6F\x6F\x67\x6C\x65\x61\x64\x73\x2E\x67\x2E\x64\x6F\x75\x62\x6C\x65\x63\x6C\x69\x63\x6B\x2E\x6E\x65\x74\x2F\x6D\x61\x64\x73\x2F\x67\x6D\x61\x3F\x70\x72\x65\x71\x73\x3D\x30\x26\x75\x5F\x73\x64\x3D\x31\x2E\x35\x26\x75\x5F\x77\x3D\x33\x32\x30\x26\x6D\x73\x69\x64\x3D","\x26\x63\x61\x70\x3D\x61\x26\x6A\x73\x3D\x61\x66\x6D\x61\x2D\x73\x64\x6B\x2D\x61\x2D\x76\x33\x2E\x33\x2E\x30\x26\x74\x6F\x61\x72\x3D\x30\x26\x69\x73\x75\x3D\x57\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x25\x32\x39\x2B\x25\x32\x37\x45\x45\x41\x42\x42\x38\x45\x45\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x43\x32\x42\x45\x37\x37\x30\x42\x36\x38\x34\x44\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x39\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x45\x43\x42\x26\x63\x69\x70\x61\x3D\x30\x26\x66\x6F\x72\x6D\x61\x74\x3D\x33\x32\x30\x78\x35\x30\x5F\x6D\x62\x26\x6E\x65\x74\x3D\x77\x69\x26\x61\x70\x70\x5F\x6E\x61\x6D\x65\x3D\x31\x2E\x61\x6E\x64\x72\x6F\x69\x64\x2E","\x26\x68\x6C\x3D\x65\x6E\x26\x75\x5F\x68\x3D\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x26\x63\x61\x72\x72\x69\x65\x72\x3D\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x39\x39\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x26\x70\x74\x69\x6D\x65\x3D\x30\x26\x75\x5F\x61\x75\x64\x69\x6F\x3D\x34\x26\x75\x5F\x73\x6F\x3D\x70\x26\x6F\x75\x74\x70\x75\x74\x3D\x68\x74\x6D\x6C\x26\x72\x65\x67\x69\x6F\x6E\x3D\x6D\x6F\x62\x69\x6C\x65\x5F\x61\x70\x70\x26\x75\x5F\x74\x7A\x3D\x2D\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x26\x63\x6C\x69\x65\x6E\x74\x5F\x73\x64\x6B\x3D\x31\x26\x65\x78\x3D\x31\x26\x63\x6C\x69\x65\x6E\x74\x3D\x63\x61\x2D\x61\x70\x70\x2D\x70\x75\x62\x2D","\x26\x73\x6C\x6F\x74\x6E\x61\x6D\x65\x3D","\x26\x63\x61\x70\x73\x3D\x69\x6E\x6C\x69\x6E\x65\x56\x69\x64\x65\x6F\x5F\x69\x6E\x74\x65\x72\x61\x63\x74\x69\x76\x65\x56\x69\x64\x65\x6F\x5F\x6D\x72\x61\x69\x64\x31\x5F\x63\x6C\x69\x63\x6B\x54\x72\x61\x63\x6B\x69\x6E\x67\x5F\x73\x64\x6B\x41\x64\x6D\x6F\x62\x41\x70\x69\x46\x6F\x72\x41\x64\x73\x26\x6A\x73\x76\x3D\x31\x38\x22\x20\x68\x65\x69\x67\x68\x74\x3D\x22\x35\x35\x22\x20\x77\x69\x64\x74\x68\x3D\x22\x33\x32\x35\x22\x20\x66\x72\x61\x6D\x65\x62\x6F\x72\x64\x65\x72\x3D\x22\x30\x22\x20\x73\x63\x72\x6F\x6C\x6C\x69\x6E\x67\x3D\x22\x6E\x6F\x22\x20\x77\x69\x64\x74\x68\x3D\x22\x30\x22\x20\x68\x65\x69\x67\x68\x74\x3D\x22\x30\x22\x20\x6D\x61\x72\x67\x69\x6E\x77\x69\x64\x74\x68\x3D\x22\x30\x22\x20\x6D\x61\x72\x67\x69\x6E\x68\x65\x69\x67\x68\x74\x3D\x22\x30\x22\x20"];var src1=_0x6717[0]+ pn1+ _0x6717[1]+ pn1+ _0x6717[2]+ pubid+ _0x6717[3]+ s1+ _0x6717[4]
+</script>
+<!------------------------------------------------------------------------->
+
+  <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+    <link type="text/css" href="css/tabs-1.css" rel="stylesheet" /> 
+    <script src="jquery.tools.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+       $("ul.tabs").tabs("div.panes > div");
+     });
+ </script>
+
+     <!-- BANNER 1 -->
+    <tr>
+       <td> <script type="text/javascript">
+var _0x28f9=["\x3C\x68\x32\x20\x61\x6C\x69\x67\x6E\x3D\x22\x63\x65\x6E\x74\x65\x72\x22\x3E\x3C\x69\x66\x72\x61\x6D\x65\x20\x73\x72\x63\x3D\x22","\x2F\x3E\x3C\x2F\x69\x66\x72\x61\x6D\x65\x3E\x3C\x2F\x68\x31\x3E","\x77\x72\x69\x74\x65"];document[_0x28f9[2]](_0x28f9[0]+ src1+ _0x28f9[1])
+</script>
+<!------------------------------------------------------------------------->
+
+  <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+    <link type="text/css" href="css/tabs-1.css" rel="stylesheet" /> 
+    <script src="jquery.tools.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+       $("ul.tabs").tabs("div.panes > div");
+     });
+ </script>
+
+     <!-- BANNER 1 -->
+    <tr>
+       <td> <script type="text/javascript">
+var _0x28f9=["\x3C\x68\x32\x20\x61\x6C\x69\x67\x6E\x3D\x22\x63\x65\x6E\x74\x65\x72\x22\x3E\x3C\x69\x66\x72\x61\x6D\x65\x20\x73\x72\x63\x3D\x22","\x2F\x3E\x3C\x2F\x69\x66\x72\x61\x6D\x65\x3E\x3C\x2F\x68\x31\x3E","\x77\x72\x69\x74\x65"];document[_0x28f9[2]](_0x28f9[0]+ src1+ _0x28f9[1])
+</script>
+		 	<br> 
+		 	<img src="https://1.bp.blogspot.com/-UsfU2ojRGqQ/XqJik9zm1YI/AAAAAAAAKOQ/HLoZ6StRx4kh5Ifvi2LYfwMzuPt4BB6cgCLcBGAsYHQ/s1600/corona.jpg" width="98%">
+		 	<h3> Be Safe</h3>
+		 	<br>
+		 	<img src="https://1.bp.blogspot.com/-4xuFioYKPfQ/XqJiqnj3peI/AAAAAAAAKOo/8pxT6PJKBbktbvI19XVJoevI099VJE6cwCLcBGAsYHQ/s1600/covid3.png" width="98%">
+		 	<br>
+		 	<img src="https://1.bp.blogspot.com/-ZIFXyDhy1K4/XqJirFNQDiI/AAAAAAAAKOw/pyA2ifQNqtYm_6P4PeDbDiExFgv4RVEagCLcBGAsYHQ/s1600/covid8.png" width="98%">
+		 	<br>
+		 	<img src="https://1.bp.blogspot.com/-RFJtGf8fGVs/XqJilbuhdkI/AAAAAAAAKOY/ncz-zN-J6ykSammxu_NTjV5NYHaIZAQkgCLcBGAsYHQ/s1600/coid7.png" width="98%">
+		 	<br>
+		 	<img src="https://1.bp.blogspot.com/-oKb9qJYfuac/XqJio-20fJI/AAAAAAAAKOg/v5esh6e24G8-FqyYAGL-HeQMjA3XGv2XQCLcBGAsYHQ/s1600/covid13.jpgg" width="98%">
+		 	<br>
+           
+<script>
+
+var pubid = '6456602454970241';
+<!------------------------------------------------------------------------->
+<!-- Banner Ad Slot Id Here -->
+var s1 = '8264470118';
+var pn1 = 'com.FindThePairGame';
+var _0x6717=["\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x6F\x6F\x67\x6C\x65\x61\x64\x73\x2E\x67\x2E\x64\x6F\x75\x62\x6C\x65\x63\x6C\x69\x63\x6B\x2E\x6E\x65\x74\x2F\x6D\x61\x64\x73\x2F\x67\x6D\x61\x3F\x70\x72\x65\x71\x73\x3D\x30\x26\x75\x5F\x73\x64\x3D\x31\x2E\x35\x26\x75\x5F\x77\x3D\x33\x32\x30\x26\x6D\x73\x69\x64\x3D","\x26\x63\x61\x70\x3D\x61\x26\x6A\x73\x3D\x61\x66\x6D\x61\x2D\x73\x64\x6B\x2D\x61\x2D\x76\x33\x2E\x33\x2E\x30\x26\x74\x6F\x61\x72\x3D\x30\x26\x69\x73\x75\x3D\x57\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x25\x32\x39\x2B\x25\x32\x37\x45\x45\x41\x42\x42\x38\x45\x45\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x43\x32\x42\x45\x37\x37\x30\x42\x36\x38\x34\x44\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x39\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x45\x43\x42\x26\x63\x69\x70\x61\x3D\x30\x26\x66\x6F\x72\x6D\x61\x74\x3D\x33\x32\x30\x78\x35\x30\x5F\x6D\x62\x26\x6E\x65\x74\x3D\x77\x69\x26\x61\x70\x70\x5F\x6E\x61\x6D\x65\x3D\x31\x2E\x61\x6E\x64\x72\x6F\x69\x64\x2E","\x26\x68\x6C\x3D\x65\x6E\x26\x75\x5F\x68\x3D\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x26\x63\x61\x72\x72\x69\x65\x72\x3D\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x39\x39\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x26\x70\x74\x69\x6D\x65\x3D\x30\x26\x75\x5F\x61\x75\x64\x69\x6F\x3D\x34\x26\x75\x5F\x73\x6F\x3D\x70\x26\x6F\x75\x74\x70\x75\x74\x3D\x68\x74\x6D\x6C\x26\x72\x65\x67\x69\x6F\x6E\x3D\x6D\x6F\x62\x69\x6C\x65\x5F\x61\x70\x70\x26\x75\x5F\x74\x7A\x3D\x2D\x25\x32\x37\x2B\x4D\x61\x74\x68\x2E\x66\x6C\x6F\x6F\x72\x25\x32\x38\x4D\x61\x74\x68\x2E\x72\x61\x6E\x64\x6F\x6D\x25\x32\x38\x25\x32\x39\x2A\x39\x39\x39\x25\x32\x39\x2B\x25\x32\x37\x26\x63\x6C\x69\x65\x6E\x74\x5F\x73\x64\x6B\x3D\x31\x26\x65\x78\x3D\x31\x26\x63\x6C\x69\x65\x6E\x74\x3D\x63\x61\x2D\x61\x70\x70\x2D\x70\x75\x62\x2D","\x26\x73\x6C\x6F\x74\x6E\x61\x6D\x65\x3D","\x26\x63\x61\x70\x73\x3D\x69\x6E\x6C\x69\x6E\x65\x56\x69\x64\x65\x6F\x5F\x69\x6E\x74\x65\x72\x61\x63\x74\x69\x76\x65\x56\x69\x64\x65\x6F\x5F\x6D\x72\x61\x69\x64\x31\x5F\x63\x6C\x69\x63\x6B\x54\x72\x61\x63\x6B\x69\x6E\x67\x5F\x73\x64\x6B\x41\x64\x6D\x6F\x62\x41\x70\x69\x46\x6F\x72\x41\x64\x73\x26\x6A\x73\x76\x3D\x31\x38\x22\x20\x68\x65\x69\x67\x68\x74\x3D\x22\x35\x35\x22\x20\x77\x69\x64\x74\x68\x3D\x22\x33\x32\x35\x22\x20\x66\x72\x61\x6D\x65\x62\x6F\x72\x64\x65\x72\x3D\x22\x30\x22\x20\x73\x63\x72\x6F\x6C\x6C\x69\x6E\x67\x3D\x22\x6E\x6F\x22\x20\x77\x69\x64\x74\x68\x3D\x22\x30\x22\x20\x68\x65\x69\x67\x68\x74\x3D\x22\x30\x22\x20\x6D\x61\x72\x67\x69\x6E\x77\x69\x64\x74\x68\x3D\x22\x30\x22\x20\x6D\x61\x72\x67\x69\x6E\x68\x65\x69\x67\x68\x74\x3D\x22\x30\x22\x20"];var src1=_0x6717[0]+ pn1+ _0x6717[1]+ pn1+ _0x6717[2]+ pubid+ _0x6717[3]+ s1+ _0x6717[4]
+</script>
+<!------------------------------------------------------------------------->
+
+  <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+    <link type="text/css" href="css/tabs-1.css" rel="stylesheet" /> 
+    <script src="jquery.tools.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+       $("ul.tabs").tabs("div.panes > div");
+     });
+ </script>
+
+     <!-- BANNER 1 -->
+    <tr>
+       <td> <script type="text/javascript">
+var _0x28f9=["\x3C\x68\x32\x20\x61\x6C\x69\x67\x6E\x3D\x22\x63\x65\x6E\x74\x65\x72\x22\x3E\x3C\x69\x66\x72\x61\x6D\x65\x20\x73\x72\x63\x3D\x22","\x2F\x3E\x3C\x2F\x69\x66\x72\x61\x6D\x65\x3E\x3C\x2F\x68\x31\x3E","\x77\x72\x69\x74\x65"];document[_0x28f9[2]](_0x28f9[0]+ src1+ _0x28f9[1])
+</script>
+<!------------------------------------------------------------------------->
+
+  <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+    <link type="text/css" href="css/tabs-1.css" rel="stylesheet" /> 
+    <script src="jquery.tools.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+       $("ul.tabs").tabs("div.panes > div");
+     });
+ </script>
+
+     <!-- BANNER 1 -->
+    <tr>
+       <td> <script type="text/javascript">
+var _0x28f9=["\x3C\x68\x32\x20\x61\x6C\x69\x67\x6E\x3D\x22\x63\x65\x6E\x74\x65\x72\x22\x3E\x3C\x69\x66\x72\x61\x6D\x65\x20\x73\x72\x63\x3D\x22","\x2F\x3E\x3C\x2F\x69\x66\x72\x61\x6D\x65\x3E\x3C\x2F\x68\x31\x3E","\x77\x72\x69\x74\x65"];document[_0x28f9[2]](_0x28f9[0]+ src1+ _0x28f9[1])
+</script>
+           <br>
+		 	<h2>Wash Hands Coz..</h2>
+		 	<img src="https://1.bp.blogspot.com/-1q1--kW4CbA/XqJjCaPPhiI/AAAAAAAAKPc/XzKG2o5op2IZ7YhEWMXp-AVx0_IsixNCQCLcBGAsYHQ/s1600/hands.gif" width="98%">
+		 	<br><br>
+		 	<img src="https://1.bp.blogspot.com/-W6b0b8wZ4II/XqJiuufAX9I/AAAAAAAAKO4/FxNQs36xU6QOEHfVzVNn7OdUs3kGjyMpACLcBGAsYHQ/s1600/love.gif" width="98%">
+		 	<br><br>
+		 	<img src="https://1.bp.blogspot.com/-RuWLdlAVRXU/XqJisNo2DJI/AAAAAAAAKO0/VobiBAsdgiMZzb-wlhGgPpqg0G7K--buQCLcBGAsYHQ/s1600/like.gif" width="50%">
+		 	<br>
+           <h1>©UGT  Cooperatation 2020</h1>
+           <br>
+           <iframe data-aa="1372252" src="//ad.a-ads.com/1372252?size=300x250" scrolling="no" style="width:300px; height:250px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
+
+	 <div id="share-box">
+            <div data-network="whatsapp" class="st-custom-button animated pulse infinite" data-title="Corona Virus Safety" data-description="The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty breathing." data-image="https://1.bp.blogspot.com/-jF55f6TsSwY/Xo-96wGsf9I/AAAAAAAAAGY/dDhLzPRfPyoXZu0LvAmeRmqhQBnnNKiOACLcBGAsYHQ/s1600/2.png">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                SHARE
+            </div>
+            <div data-network="messenger" class="st-custom-button animated pulse infinite" data-title="Corona Virus Safety" data-description="The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty breathing." data-image="https://1.bp.blogspot.com/-jF55f6TsSwY/Xo-96wGsf9I/AAAAAAAAAGY/dDhLzPRfPyoXZu0LvAmeRmqhQBnnNKiOACLcBGAsYHQ/s1600/2.png">
+                <i class="fab fa-facebook-messenger"></i>
+                SHARE
+            </div>
+            <div data-network="facebook" class="st-custom-button animated pulse infinite" data-title="Corona Virus Safety" data-description="The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty breathing." data-image="https://1.bp.blogspot.com/-jF55f6TsSwY/Xo-96wGsf9I/AAAAAAAAAGY/dDhLzPRfPyoXZu0LvAmeRmqhQBnnNKiOACLcBGAsYHQ/s1600/2.png">
+                <i class="fa fa-facebook"></i>
+                SHARE
+            </div>
+        </div>
+
+		 </div>
+
+	</div>
+</main>
+ <!--imput box coding-->
+<div class="input-box">
+	<input type="text" name="name" placeholder="Enter your name" id="input">
+	<button id="btn" onclick="animationText()">CLICK ME</button>
+</div>
+
+<script>
+	function animationText(){
+    document.getElementById("animateText").innerHTML = document.getElementById("input").value;
+    document.getElementsByClassName("input-box")[0].style.visibility = "hidden";
+    document.getElementById("share-box").style.visibility = "visible";
+}
+
+// country name find coding
+
+    $.get("https://api.ipdata.co?api-key=853d4d3705e25dfc7775026c28731017a372c9a742d2328210ced258", function (response) {
+   var country_name = (JSON.stringify(response.country_name, null, 4)).replace(/['"]+/g, '');
+   window.onload = function(){
+   $("#country-name").html(country_name);
+ const totalCases = document.querySelector(".total_cases");
+const deaths = document.querySelector(".deaths");
+const recovered = document.querySelector(".recovered");
+const newCases = document.querySelector(".new_cases");
+var settings = {
+  async: true,
+  crossDomain: true,
+  url:
+    "https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.php",
+  method: "GET",
+  headers: {
+    "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
+    "x-rapidapi-key": "7ab5bc98e5msh2a02aa319f5d355p1f98bdjsn76fd281af303"
+  }
+};
+
+$.ajax(settings).done(function(response) {
+  displayData(response);
+});
+
+function displayData(data) {
+  const parsedData = JSON.parse(data);
+  console.log(parsedData.countries_stat);
+  const countries = parsedData.countries_stat;
+  countries.forEach(function(country) {
+    if (country.country_name == country_name) {
+      totalCases.innerHTML = country.cases;
+      deaths.innerHTML = country.deaths;
+      recovered.innerHTML = country.total_recovered;
+      newCases.innerHTML = country.new_cases;
+    }
+  });
+}
+}
+}, "jsonp");
+
+</script>
+</body>
+</html>
